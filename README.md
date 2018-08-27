@@ -1,3 +1,5 @@
+HTML: HyperText Markup Language 
+
 body er synlig
 
 head er den del af hjemmesiden som ikke er synligt
@@ -22,3 +24,4 @@ Regler
 2. %20
 3. ingen ø,å,æ
 4. man må godt bruge undscorem bindestreg
+
