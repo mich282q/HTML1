@@ -10,7 +10,7 @@ h1 {
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     background-color: #2196F3;
-    padding: 10px;
+    padding: 5px;
     width: max-content;
     margin: auto;
   }
@@ -20,18 +20,12 @@ h1 {
     padding: 0px 0;
     font-size: 60px;
   }
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
+
+  img:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
   
   .container:hover .overlay {
     opacity: 1;
