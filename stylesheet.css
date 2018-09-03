@@ -1,0 +1,38 @@
+h1 {
+    /* Overskriften på vendespillet er stylet med lidt CSS3 som bliver kørt på html */
+    text-align: center;
+    font: bold 50px Arial, Helvetica, sans-serif;
+    color: blueviolet
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 60px;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
