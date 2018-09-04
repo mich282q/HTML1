@@ -1,3 +1,5 @@
+
+
 h1 {
     /* Overskriften på vendespillet er stylet med lidt CSS3 som bliver kørt på html */
     text-align: center;
@@ -20,13 +22,11 @@ h1 {
     padding: 0px 0;
     font-size: 60px;
   }
-
-  img:hover {
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-}
   
-  .container:hover .overlay {
+  img {
+    opacity: 0.0;
+  }
+    
+  img:hover {
     opacity: 1;
   }
