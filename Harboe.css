@@ -1,0 +1,17 @@
+.header img {
+  float: center;
+  background: #555;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.header1 h1 {
+  
+  position: relative;
+  top: 18px;
+  left: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
