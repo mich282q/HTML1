@@ -1,10 +1,12 @@
- 
  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-size: 20px;
+    
+    
 }
 
  li {
@@ -17,6 +19,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
  li a:hover {
@@ -33,6 +36,18 @@ body {
 
 
 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
+.smGlobalBtn{ /* global button class */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: (170, 170, 170);
+    font-size: 30px;
+    float: right;
+    padding: 9px 20px;
+}
 /* facebook button class*/
 .facebookBtn:before{ /* use :before to add the relevant icons */
     font-family: "FontAwesome";
@@ -43,17 +58,6 @@ body {
 }
 
 
-#social {
-
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
-    color: (170, 170, 170);
-    font-size: 25px;
-    float: right;
-    
-}
-
 /* github button class*/
 .githubBtn:before{
       font-family: "FontAwesome";
@@ -61,7 +65,7 @@ body {
     
 }
 .githubBtn:hover{
-      color: #000000;
+      color: #4060A5;
 }
 
 
@@ -73,6 +77,16 @@ body {
 }
 .linkedinBtn:hover{
       color: #0094BC;
+}
+
+
+/* linkedin button class*/
+.instagramBtn:before{
+    font-family: "FontAwesome";
+    content: "\f16d"; /* add linkedin icon */
+}
+.instagramBtn:hover{
+    color: #0094BC;
 }
 
 /* Social media logos  */
