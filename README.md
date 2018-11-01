@@ -63,3 +63,7 @@ Regler
 3. ingen ø,å,æ
 4. man må godt bruge undscorem bindestreg
 
+Author:
+
+Michael Trans
+
