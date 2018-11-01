@@ -1,5 +1,6 @@
 
 <?php
+
 $Navn =$_POST['Dit Navn'];
 $MedlemsNr =$_POST['MedlemsNr'];
 $cola =$_POST['Cola 05'];
