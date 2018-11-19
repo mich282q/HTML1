@@ -43,7 +43,7 @@ body {
     position: relative;
     cursor: pointer;
     text-decoration: none;
-    color: (170, 170, 170);
+    color:white;
     font-size: 30px;
     float: right;
     padding: 9px 20px;
@@ -90,3 +90,21 @@ body {
 }
 
 /* Social media logos  */
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

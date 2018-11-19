@@ -5,10 +5,6 @@
           box-sizing: border-box;
 }
 
-body {
-  margin: 10px 0;
-  background: #6589F9;
-}
 
 .grid {
   /* stod med 960px før */
