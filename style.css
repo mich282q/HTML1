@@ -65,7 +65,7 @@ body {
     
 }
 .githubBtn:hover{
-      color: #4060A5;
+      color: black;
 }
 
 
@@ -76,7 +76,7 @@ body {
       content: "\f0e1"; /* add linkedin icon */
 }
 .linkedinBtn:hover{
-      color: #0094BC;
+      color: #4060A5;
 }
 
 
@@ -86,7 +86,7 @@ body {
     content: "\f16d"; /* add linkedin icon */
 }
 .instagramBtn:hover{
-    color: #0094BC;
+    color: #4060A5;
 }
 
 /* Social media logos  */
