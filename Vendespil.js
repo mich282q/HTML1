@@ -2,35 +2,35 @@
     'use strict';
     var cardsArray = [{
             'name': 'vendespil1',
-            'img': 'images/Vendespil/vendespil1.png'
+            'img': 'images/Vendespil1/a.jpg'
     },
     {
     'name': 'vendespil2',
-        'img': 'images/Vendespil/vendespil2.png'
+        'img': 'images/Vendespil1/b.jpg'
     },
     {
     'name': 'vendespil3',
-        'img': 'images/Vendespil/vendespil3.png'
+        'img': 'images/Vendespil1/c.jpg'
     },
     {
     'name': 'vendespil4',
-        'img': 'images/Vendespil/vendespil4.png'
+        'img': 'images/Vendespil1/d.jpg'
     },
     {
     'name': 'vendespil5',
-        'img': 'images/Vendespil/vendespil5.png'
+        'img': 'images/Vendespil1/e.jpg'
     },
     {
     'name': 'vendespil6',
-        'img': 'images/Vendespil/vendespil6.png'
+        'img': 'images/Vendespil1/f.jpg'
     },
     {
     'name': 'vendespil7',
-        'img': 'images/Vendespil/vendespil7.png'
+        'img': 'images/Vendespil1/g.jpg'
     },
     {
     'name': 'vendespil8',
-        'img': 'images/Vendespil/vendespil8.png'
+        'img': 'images/Vendespil1/h.jpg'
     }];
     var gameGrid = cardsArray.concat(cardsArray).sort(function () {
         return 0.5 - Math.random();
