@@ -6,6 +6,12 @@
     font-size:30px;
     font-family:verdana;
 }
+p{
+    font-size: 16;
+}
+pre{
+    font-size: 16;
+}
  
  ul {
     list-style-type: none;
@@ -40,9 +46,6 @@ body {
     background-color: skyblue;
     
 }
-
-
-
 
 
 
